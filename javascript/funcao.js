@@ -60,6 +60,14 @@ function exibirpress(){
     alert(campo);
 }
 
+function alterarlink() {
+
+    //obter o link 
+    var link = document.getElementsByTagName("a")[0];
+
+    link.href = "http://www.google.com"
+}
+
 
 /*function exibir(){
     var campo = document.getElementById("campo").value;
