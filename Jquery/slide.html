@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            //ocultar
+            $(".ocultar").click(function(){
+                $(".mensagem").slideUp();
+            });
+
+            //eixibir
+            $(".exibir").click(function(){
+                $(".mensagem").slideDown();
+            });
+
+
+        });
+    </script>
+</head>
+<body>
+    <h1 class="exibir">Exibir</h1>
+    <h1 class="ocultar">Ocultar</h1>
+    <hr>
+
+    <h1 class="mensagem">Hello, World</h1>
+</body>
+</html>
