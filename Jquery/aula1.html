@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.1.slim.min.map"></script>
+    <script>
+        // ao carregar o documento 
+        $(document).ready(function(){
+            // Variaveis 
+            var campo = $("input").val();
+            var titulo = $("#titulo").html();
+            var subtitulo = $(".subtitulo").html();
+
+            //Exibir
+            alert(campo);
+            alert(titulo);
+            alert(subtitulo);
+        });
+    </script>
+</head>
+<body>
+    <input type="text" value="Campo nome">
+    <h1 id="titulo">Titulo em H1</h1>
+    <h2 class="subtitulo">Titulo em H2</h2>
+</body>
+</html>

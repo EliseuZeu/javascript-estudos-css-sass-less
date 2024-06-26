@@ -64,7 +64,7 @@ function alterarlink() {
 
     //obter o link 
     var link = document.getElementsByTagName("a")[0];
-
+    document.
     link.href = "http://www.google.com"
 }
 
