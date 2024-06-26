@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            //eixibir
+            $("#exibir").click(function(){
+                $("img").show();
+            });
+            //ocultar
+            $("#ocultar").click(function(){
+                $("img").hide();
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <button id="exibir"></button>
+    <button id="ocultar"></button>
+    <br>
+    <img src="logo.jpg" alt="logo de uma galaxia">
+</body>
+</html>
